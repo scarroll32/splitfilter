@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../frontend/styles/frontend/styles/index.css"],
+  "sourcesContent": [":root {\n  --body-background: white;\n  --body-color: #444;\n  --heading-color: black;\n  --action-color: #d64045;\n}\n\np.landing {\n\tfont-family: Raleway;\n\tfont-weight: 800;\n\tfont-size: 23px;\n\tmargin-left: 1.66%;\n\ttext-transform: uppercase;\n\tborder-bottom: 2px solid #f1f1f1;\n\twidth: 30%;\n  padding-top: 10px;\n\tpadding-bottom: 20px;\n}\n\nfooter {\n  padding: 20px;\n}\n\nbody.landing {\n  background: var(--body-background);\n}\n\na:link {\n  text-decoration: none;\n  color: #FF5F1F;\n}\n\n* {\n  margin: 0;\n  padding: 0;\n}\n\nimg.grid {\n  width: 30%;\n  float: left;\n\tmargin: 1.66%;\n}\n\n@media (max-width: 600px) {\n  img.grid {\n    width: 96%;\n    margin: 2%;\n  }\n}\n\n\n/* single image page */\n\nbody.photo {\n  background: black;\n  color: white;\n}\n\n.img-container {\n  display: grid;\n  height: 100%;\n  padding: 3%;\n}\n\nimg.hi-res {\n  max-width: 100%;\n  max-height: 100vh;\n  height: auto;\n  align-self: center;\n  justify-self: center;\n}\n"],
+  "mappings": "AAAA,MACE,yBACA,mBACA,uBACA,wBAGF,UACC,oBACA,gBACA,eACA,kBACA,yBACA,gCACA,UACC,iBACD,oBAGD,OAnBA,aAuBA,aACE,iBAAA,kCAGF,OACE,qBACA,cAGF,EAhCA,mBAqCA,SACE,UACA,WAvCF,aA2CA,0BACE,SACE,UA7CJ,WAqDA,WACE,iBACA,WAGF,eACE,aACA,YA5DF,WAgEA,WACE,eACA,iBACA,YACA,kBACA",
+  "names": []
+}

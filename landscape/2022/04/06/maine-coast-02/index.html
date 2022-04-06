@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<title>Posts | Split Filter</title>
+<title>Maine Coast 2 | Split Filter</title>
 
 <meta name="description" content="Split Filter is an Archaeological and Landscapes Black and White Photography website by Sean Carroll. Let's get back to basics." />
 
@@ -41,37 +41,12 @@ setTimeout(() => {
 </script>
 
   </head>
-  <body class="page ">
-    <header>
-  <img src="/images/logo.svg" alt="Logo" />
-</header>
-
-<nav>
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/about">About</a></li>
-    <li><a href="/posts">Posts</a></li>
-  </ul>
-</nav>
-
-
-    <main>
-      <h1>Posts</h1>
-
-<ul>
-  {% for post in collections.posts.resources %}
-      <a href="{{ post.relative_url }}">{{ post.data.title }}</a>
-      {{% if post.data.imagefile %}}
-        <img src="/images/maine-coast/high-res/{{ post.data.imagefile }}" alt="Logo" />
-      {{% endif %}}
-  {% endfor %}
-</ul>
-
-<p>If you have a lot of posts, you may want to consider adding <a href="https://www.bridgetownrb.com/docs/content/pagination">pagination</a>!</p>
-
-
-    </main>
-
+  <body class="photo ">
+    <a href='/'>
+      <div class='img-container'>
+        <img src="/images/maine-coast/high-res/MaineCoast02.jpg" class='hi-res' />
+      </div>
+    </a>
     <br/>
 <footer>
   <p>
