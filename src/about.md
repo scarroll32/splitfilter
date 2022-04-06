@@ -3,8 +3,8 @@ layout: page
 title: About
 ---
 
-This is the basic Bridgetown site template. You can find out more info about customizing your Bridgetown site, as well as basic Bridgetown usage documentation at [bridgetownrb.com](https://bridgetownrb.com/)
+_What's a SplitFilter?_
 
-You can find the source code for Bridgetown at GitHub:
-[bridgetownrb](https://github.com/bridgetownrb) /
-[bridgetown](https://github.com/bridgetownrb/bridgetown)
+Split Filter printing is a [photographic darkroom technique](https://en.wikipedia.org/wiki/Darkroom#:~:text=One%20method%20of%20photographic%20printing,to%20create%20a%20single%20print.) used to control the density of shadows differently from the density of the highlights. It's how we improved photos before Photoshop.
+
+_Sean_
