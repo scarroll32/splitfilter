@@ -6,7 +6,7 @@ Split Filter printing is a [photographic darkroom technique](https://en.wikipedi
 
 _A note about the images_
 
-The images contained in this repository are all owned by Sean Carroll and permission must be requested to copy them or otherwise use them. Please [email me](bonjour@splitfilter.com) with any requests, and also see the [License file](./LICENSE).
+The images contained in this repository are all owned by Sean Carroll and permission must be requested to copy them or otherwise use them. Please [email me](bonjour@splitfilter.com) with any requests, and also see the [License file](./LICENSE.md).
 
 The site itself was built using the innovative [Bridgetown Ruby framework](https://www.bridgetownrb.com/) and deployed with GitHub Pages.
 
