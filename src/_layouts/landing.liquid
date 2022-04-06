@@ -4,7 +4,9 @@
     {% render "head", metadata: site.metadata, title: page.title %}
   </head>
   <body class="{{ resource.data.layout }} {{ resource.data.page_class }}">
-    {% render "navbar", metadata: site.metadata, resource: resource %}
+    <header>
+      <p class='landing'>Sean/Carroll</p>
+    </header>
 
     <main>
       {{ content }}

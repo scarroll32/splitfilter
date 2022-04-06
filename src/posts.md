@@ -5,9 +5,10 @@ title: Posts
 
 <ul>
   {% for post in collections.posts.resources %}
-    <li>
       <a href="{{ post.relative_url }}">{{ post.data.title }}</a>
-    </li>
+      {{% if post.data.imagefile %}}
+        <img src="/images/maine-coast/high-res/{{ post.data.imagefile }}" alt="Logo" />
+      {{% endif %}}
   {% endfor %}
 </ul>
 

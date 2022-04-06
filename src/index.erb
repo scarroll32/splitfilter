@@ -1,0 +1,9 @@
+---
+layout: landing
+---
+
+<% collections.posts.resources.each do |post| %>
+  <a href="<%= post.relative_url %>">
+    <img src="/images/maine-coast/low-res/<%= post.data.imagefile %>" alt="<%= post.data.title %>" class="grid"/>
+  </a>
+<% end %>
