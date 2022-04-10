@@ -12,4 +12,4 @@ The site itself was built using the innovative [Bridgetown Ruby framework](https
 
 These images are far from perfect, but I hope they are enjoyable for you.
 
-_Sean_
+_Seán_
